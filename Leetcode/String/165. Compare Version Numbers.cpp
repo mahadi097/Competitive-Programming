@@ -1,7 +1,7 @@
 class Solution {
 public:
     int stringToInt(string s) {
-   	int st = s.size(), v = 1;
+   	    int st = s.size(), v = 0;
       	for(int i = 0; i < s.size(); i++) {
             if(s[i] >= '1' and s[i] <= '9') { st = i; break; }
         }
